@@ -1,5 +1,7 @@
 # SIEM Honeypot in Azure (Microsoft Sentinel)
 
+![Global Attack Map](screenshots/sentinel-attack-map.png)
+
 ## Overview
 This project demonstrates a cloud-based SIEM honeypot built in Microsoft Azure to observe real-world attack activity, analyze security logs, and visualize threat data. The lab focuses on SOC analyst fundamentals such as log monitoring, alerting, and investigation using Microsoft Sentinel.
 
