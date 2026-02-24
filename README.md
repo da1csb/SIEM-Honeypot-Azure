@@ -6,7 +6,7 @@
 This project demonstrates a cloud-based SIEM honeypot built in Microsoft Azure to observe real-world attack activity, analyze security logs, and visualize threat data. The lab focuses on SOC analyst fundamentals such as log monitoring, alerting, and investigation using Microsoft Sentinel.
 
 ## Architecture
-- Azure Windows Virtual Machine exposed to the public internet
+- Azure Ubuntu Virtual Machine exposed to the public internet
 - Network Security Group (NSG) configured to allow inbound traffic
 - Log Analytics Workspace for centralized log ingestion
 - Microsoft Sentinel used as the SIEM platform
@@ -15,7 +15,7 @@ This project demonstrates a cloud-based SIEM honeypot built in Microsoft Azure t
 - Microsoft Azure
 - Microsoft Sentinel (SIEM)
 - Log Analytics Workspace
-- Windows Event Logs (Security)
+- Ubuntu server logs
 - KQL queries for log analysis
 - Network Security Groups (NSG)
 
@@ -23,7 +23,7 @@ This project demonstrates a cloud-based SIEM honeypot built in Microsoft Azure t
 Logs → KQL Queries → Analysis → Global Attack Map Visualization
 
 ## Attack Simulation
-The Windows VM was intentionally exposed to the internet to attract unauthorized login attempts. Failed authentication events were generated and logged under Windows Security Event ID 4625.
+The Ubuntu VM was intentionally exposed to the internet to attract unauthorized login attempts. Failed authentication events were collected and analyzed using Sentinel.
 
 ## Detection & Monitoring
 - Security logs ingested into Log Analytics
@@ -51,7 +51,7 @@ Additional screenshots, including detailed log results and analysis steps, are a
 ## Key Skills Demonstrated
 - SIEM configuration and monitoring
 - Log analysis and investigation
-- Windows security event analysis
+- Ubuntu security log analysis
 - Cloud security fundamentals
 - Threat intelligence enrichment
 - SOC workflow understanding
