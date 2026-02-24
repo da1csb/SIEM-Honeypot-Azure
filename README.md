@@ -9,9 +9,6 @@ This project demonstrates a cloud-based SIEM honeypot built in Microsoft Azure t
 - Log Analytics Workspace for centralized log ingestion
 - Microsoft Sentinel used as the SIEM platform
 
-![Uploading image.png…]()
-
-
 ## Tools & Technologies
 - Microsoft Azure
 - Microsoft Sentinel (SIEM)
